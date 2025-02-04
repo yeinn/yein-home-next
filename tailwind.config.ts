@@ -4,13 +4,13 @@ export default {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/layouts/**/*.{js,ts,jsx,tsx,mdx}", // ✅ layouts 폴더 추가
+    "./src/store/**/*.{js,ts,jsx,tsx,mdx}", // ✅ store 폴더 추가
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      fontFamily: {
+        nexon: ["'NEXON Lv1 Gothic OTF'", "sans-serif"],
       },
     },
   },
